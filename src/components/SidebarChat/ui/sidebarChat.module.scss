@@ -1,0 +1,57 @@
+.sidebarChat {
+  width: 100%;
+  height: 70px;
+  background-color: #111b21;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  &:hover {
+    background-color: #202c33;
+  }
+
+  &_inner {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &_leftSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &_img {
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+
+  &_title {
+    font-weight: 400;
+    font-size: 17px;
+    color: #fff;
+  }
+  &_lastMessage {
+    font-weight: 400;
+    font-size: 13px;
+    color: #80969a;
+  }
+
+  &_chat {
+    width: 100%;
+  }
+
+  &_date {
+    font-size: 13px;
+    color: #80969a;
+  }
+}

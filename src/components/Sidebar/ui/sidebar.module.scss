@@ -1,0 +1,32 @@
+.sidebar {
+  width: 30%;
+  height: 100%;
+  background-color: #111b21;
+
+  &_search {
+    padding: 10px 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    &_icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      left: 20px;
+      position: absolute;
+    }
+    &_input {
+      margin-right: 5px;
+      font-size: 14px;
+      color: #d1d7d0;
+      width: 100%;
+      padding: 10px 0px 10px 40px;
+      border-radius: 7px;
+      background-color: #202c33;
+      border: none;
+      outline: none;
+    }
+  }
+}
