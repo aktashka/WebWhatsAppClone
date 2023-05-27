@@ -1,14 +1,15 @@
 import React from "react";
 import styles from "./sidebar.module.scss";
 import { SidebarChat } from "../../SidebarChat";
-import { Scrollbars } from "react-custom-scrollbars-2";
 import { AiOutlineSearch, CgSortAz } from "react-icons/all";
 export const Sidebar = () => {
   const data = [
     {
+      id: 1,
       name: "Актан",
     },
     {
+      id: 2,
       name: "Дастан",
     },
   ];
@@ -26,11 +27,9 @@ export const Sidebar = () => {
         />
         <CgSortAz size={30} color="#8696A0" />
       </div>
-      <Scrollbars style={{ width: "100%", height: "90%" }}>
-        <div className={styles.sidebar_chat}>
-          <SidebarChat />
-        </div>
-      </Scrollbars>
+      {data.map((item) => {
+        <SidebarChat name={item.name} />;
+      })}
     </div>
   );
 };
