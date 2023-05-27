@@ -19,11 +19,7 @@ export const Sidebar = () => {
         <span className={styles.sidebar_search_icon}>
           <AiOutlineSearch size={20} color="#8696A0" />
         </span>
-        <input
-          type="text"
-          className={styles.sidebar_search_input}
-          placeholder="Поиск или новый чат"
-        />
+        <input type="text" className={styles.sidebar_search_input} placeholder="Поиск или новый чат" />
         <CgSortAz size={30} color="#8696A0" />
       </div>
       <Scrollbars style={{ width: "100%", height: "90%" }}>
