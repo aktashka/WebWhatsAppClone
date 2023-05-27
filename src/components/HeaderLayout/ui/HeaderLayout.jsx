@@ -40,7 +40,6 @@ export const HeaderLayout = () => {
                 </div>
                 <div className={styles.header_rightSide_title}>Заголовок</div>
               </div>
-
               <div className={styles.header_rightSide_icons_block}>
                 <div className={styles.header_chat_icon}>
                   <AiOutlineSearch size={20} color="#AEBAC1" />
